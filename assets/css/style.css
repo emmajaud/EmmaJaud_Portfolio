@@ -716,7 +716,7 @@ section {
   background-color: #dff2fb;
 }
 
-@media (max-height: 720px) and (min-width: 1280px) {
+@media (max-height: 720px) and (min-width: 1279px) {
   .p-card-container {
     height: 540px;
   }  
