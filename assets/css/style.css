@@ -716,6 +716,12 @@ section {
   background-color: #dff2fb;
 }
 
+@media (max-height: 720px) and (min-width: 1280px) {
+  .p-card-container {
+    height: 540px;
+  }  
+}
+
 @media (max-width: 1199px) {
   .card-title {
     font: normal normal bold 50px/72px Merriweather !important;
