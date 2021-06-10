@@ -718,7 +718,7 @@ section {
 
 @media (max-height: 720px) and (min-width: 1279px) {
   .p-card-container {
-    height: 540px;
+    height: 540px !important;
   }  
 }
 
