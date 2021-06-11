@@ -354,6 +354,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 40px;
 }
 
+section#hero {
+  /*padding-bottom: 0px;*/
+}
+
 #hero h1 {
   font: normal normal bold 80px/92px Merriweather;
   color: black;
@@ -549,6 +553,10 @@ section {
 /*--------------------------------------------------------------
 # Cards
 --------------------------------------------------------------*/
+section#work {
+  padding-top: 20px !important;
+}
+
 .p-card-container {
   position: relative;
   display: -webkit-box;
@@ -761,6 +769,9 @@ section {
   .card-body {
     padding: 20px 10px !important;
   }
+  #dellgaming-card-id.card-body {
+    padding: 20px 2px 20px 10px !important;
+  }
   .card-title {
     font: normal normal bold 32px/42px Merriweather !important;
   }
@@ -768,6 +779,9 @@ section {
     margin: 0 0 20px 0 !important;
     font: normal normal normal 14px/20px Merriweather;
     color: #000;
+  }
+  .technique-id {
+    margin-right: 2px;
   }
   #frontD.technique-id {
     margin-right: 0 !important;
