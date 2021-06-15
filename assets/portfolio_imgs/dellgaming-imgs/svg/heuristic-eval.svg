@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="496" height="384" viewBox="0 0 496 384">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-heuristic-eval);
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #fc1000;
+      }
+
+      .cls-4, .cls-6 {
+        font-size: 14px;
+        font-family: Merriweather-Regular, Merriweather;
+      }
+
+      .cls-5 {
+        fill: #f7c710;
+      }
+
+      .cls-7 {
+        fill: #8ed14f;
+      }
+
+      .cls-8 {
+        font-size: 12px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-9 {
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+    </style>
+    <clipPath id="clip-heuristic-eval">
+      <rect width="496" height="384"/>
+    </clipPath>
+  </defs>
+  <g id="heuristic-eval" class="cls-1">
+    <g id="Group_773" data-name="Group 773" transform="translate(-640 -4792)">
+      <rect id="Rectangle_1805" data-name="Rectangle 1805" class="cls-2" width="496" height="384" rx="10" transform="translate(640 4792)"/>
+      <g id="Group_530" data-name="Group 530" transform="translate(-514 21108)">
+        <path id="Rectangle_1810" data-name="Rectangle 1810" class="cls-3" d="M10,0H219a0,0,0,0,1,0,0V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(1154 -16316)"/>
+        <text id="Negative_Need_to_change" data-name="Negative / Need to change" class="cls-4" transform="translate(1169 -16299)"><tspan x="0" y="0">Negative / Need to change</tspan></text>
+      </g>
+      <g id="Group_534" data-name="Group 534" transform="translate(-577 20988)">
+        <rect id="Rectangle_1807" data-name="Rectangle 1807" width="277" height="1" transform="translate(1436 -16052)"/>
+        <rect id="Rectangle_1810-2" data-name="Rectangle 1810" class="cls-5" width="219" height="24" transform="translate(1217 -16052)"/>
+        <text id="Neutral_Need_to_Improve" data-name="Neutral / Need to Improve" class="cls-6" transform="translate(1232 -16035)"><tspan x="0" y="0">Neutral / Need to Improve</tspan></text>
+      </g>
+      <g id="Group_535" data-name="Group 535" transform="translate(-577 20988)">
+        <rect id="Rectangle_1807-2" data-name="Rectangle 1807" width="277" height="1" transform="translate(1436 -15940)"/>
+        <rect id="Rectangle_1810-3" data-name="Rectangle 1810" class="cls-7" width="219" height="24" transform="translate(1217 -15940)"/>
+        <text id="Positive_Need_to_Be" data-name="Positive / Need to Be" class="cls-6" transform="translate(1232 -15923)"><tspan x="0" y="0">Positive / Need to Be</tspan></text>
+      </g>
+      <text id="_1._The_Dell_logo_is_too_small_not_very_visible_2._Footer_has_too_much_text_and_the_font_size_is_extremely_small._3._Unnecessary_white_space._4._Proximity_is_too_close_which_makes_reading_the_copy_overwhelming._5._Deal_of_the_day_information_could_probably_" data-name="1. The Dell logo is too small not very visible
+2. Footer has too much text and the font size is extremely small.
+3. Unnecessary white space.
+4. Proximity is too close which makes reading the copy overwhelming.
+5. Deal of the day information could probably " class="cls-8" transform="translate(672 4832)"><tspan x="0" y="13">1. The Dell </tspan><tspan class="cls-9" y="13">logo</tspan><tspan y="13" xml:space="preserve"> is </tspan><tspan class="cls-9" y="13">too small</tspan><tspan y="13" xml:space="preserve"> not very visible</tspan><tspan x="0" y="31">2. </tspan><tspan class="cls-9" y="31">Footer</tspan><tspan y="31" xml:space="preserve"> has </tspan><tspan class="cls-9" y="31">too much text</tspan><tspan y="31" xml:space="preserve"> and the </tspan><tspan class="cls-9" y="31">font size is extremely small.</tspan><tspan x="0" y="49">3. Unnecessary white space.</tspan><tspan x="0" y="67">4. Proximity is too close which makes reading the </tspan><tspan class="cls-9" y="67">copy overwhelming.</tspan><tspan x="0" y="85">5. Deal of the day information could probably be turned into a button.</tspan></text>
+      <text id="_1._Entire_page_is_minimalistic_and_easy_on_the_eye_2._Website_is_responsive_but_seems_to_cater_more_to_the_mobile_version._3._The_font_size_is_too_small_in_certain_areas_of_the_page." data-name="1. Entire page is minimalistic and easy on the eye
+2. Website is responsive, but seems to cater more to the mobile version.
+3. The font size is too small in certain areas of the page." class="cls-8" transform="translate(672 4976)"><tspan x="0" y="13">1. Entire page is minimalistic and easy on the eye</tspan><tspan x="0" y="31">2. Website is responsive, but seems to cater more to the mobile version.</tspan><tspan x="0" y="49">3. The font size is too small in certain areas of the page.</tspan></text>
+      <text id="_1._Great_feature_to_adjust_the_user_s_price_range._" data-name="1. Great feature to adjust the user&apos;s price range. " class="cls-8" transform="translate(672 5088)"><tspan x="0" y="13">1. Great feature to adjust the user&apos;s price range. </tspan></text>
+      <text id="_2._Easy_way_to_narrow_in_on_the_user_s_needs_by_focusing_on_the_game_they_play_and_invest_time_in._" data-name="2. Easy way to narrow in on the user&apos;s needs by focusing on the game   
+    they play and invest time in. " class="cls-8" transform="translate(672 5106)"><tspan x="0" y="13" xml:space="preserve">2. Easy way to narrow in on the user&apos;s needs by focusing on the game   </tspan><tspan x="0" y="27" xml:space="preserve">    they play and invest time in. </tspan></text>
+      <text id="_3._The_imagery_included_in_these_cards_is_useful." data-name="3. The imagery included in these cards is useful." class="cls-8" transform="translate(672 5138)"><tspan x="0" y="13">3. The imagery included in these cards is useful.</tspan></text>
+    </g>
+  </g>
+</svg>

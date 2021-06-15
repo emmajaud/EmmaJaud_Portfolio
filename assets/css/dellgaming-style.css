@@ -1,0 +1,564 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #3498db;
+}
+
+a:hover {
+    color: #5faee3;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.1px !important;
+}
+
+@media (max-width: 575px) {
+    #work .container { 
+        padding: 0 15px 88px 15px !important;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#dellgaming-hero {
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 40px;
+}
+
+.hero-image {
+    background-image: url("../portfolio_imgs/dellgaming-imgs/svg/dellgaming-hero.svg");
+    height: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 64px 0;
+    overflow: hidden;
+}
+
+.light-section {
+    /*background-color: #fff;*/
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #000000;
+    opacity: 1;
+}
+.light-section-font h1 {
+    font: normal normal bold 48px/48px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #0000000A;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.light-section-font h2 {
+    font: normal normal bold 28px/28px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #00000005;
+    opacity: 1;
+}
+.light-section-font h3 {
+    font: normal normal normal 18px/28px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.dark-section {
+    /*background-color: #1a1a1a;*/
+    background: #1A1A1A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #1A1A1A;
+    opacity: 1;
+}
+.dark-section-font h1 {
+    font: normal normal bold 48px/48px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.dark-section-font h2 {
+    font: normal normal bold 28px/28px Merriweather;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.dark-section-font h3 {
+    font: normal normal normal 18px/28px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
+  # Intro Info
+--------------------------------------------------------------*/
+#dellgaming-info h1 {
+    font: normal normal bold 38px/38px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #0000000A;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#dellgaming-info h2 {
+    font: normal normal bold 20px/20px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #0000000A;
+    margin-bottom: 16px;
+}
+
+#dellgaming-info h3 {
+    font: normal normal normal 18px/28px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+#dellgaming-info h4 {
+    font: normal normal normal 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.technique-id {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 8px;
+    /*margin-bottom: 20px;*/
+    padding: 4px 8px;
+    border-radius: 5px;
+    /*box-shadow: 0px 3px 6px #00000029;*/
+    color: #000;
+    font-size: 12px;
+    background: #256dff1f 0% 0% no-repeat padding-box;
+}
+
+/*--------------------------------------------------------------
+  # Team Info
+--------------------------------------------------------------*/
+#team-info h1 {
+    font: normal normal bold 28px/28px Merriweather;
+    letter-spacing: 1px !important;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    text-transform: uppercase;
+    margin-bottom: 12px !important;
+}
+
+#team-info h2 {
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+/*--------------------------------------------------------------
+  # Problem Info
+--------------------------------------------------------------*/
+#problem-info h1 {
+    font: normal normal bold 32px/32px Merriweather;
+    letter-spacing: 0px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #00000005;
+    opacity: 1;
+    margin-bottom: 24px !important;
+}
+
+#problem-info h2 {
+    font: normal normal normal 18px/28px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+.hover_card:hover{
+    transform: scale(1.05);
+    transition-duration: .4s;
+    /*box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    border-color: white;*/
+  }
+
+
+
+
+
+/*--------------------------------------------------------------
+  # Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu > ul {
+    display: flex;
+}
+
+.nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 24px;
+}
+
+.nav-menu a {
+    display: block;
+    position: relative;
+    color: #000;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 3px;
+    font-family: "Merriweather", serif;
+}
+
+.nav-menu > ul > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #3498db;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #3498db;
+}
+
+.nav-menu .drop-down ul {
+    display: block;
+    position: absolute;
+    left: 22px;
+    top: calc(100% + 30px);
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+}
+
+.nav-menu .drop-down:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.nav-menu .drop-down li {
+    min-width: 180px;
+    position: relative;
+}
+
+.nav-menu .drop-down ul a {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: none;
+    color: #2c4964;
+}
+
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+    color: #3498db;
+}
+
+.nav-menu .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont;
+    padding-left: 5px;
+}
+
+.nav-menu .drop-down .drop-down ul {
+    top: 0;
+    left: calc(100% - 30px);
+}
+
+.nav-menu .drop-down .drop-down:hover > ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+}
+
+.nav-menu .drop-down .drop-down > a {
+    padding-right: 35px;
+}
+
+.nav-menu .drop-down .drop-down > a:after {
+    content: "\eaa0";
+    font-family: IcoFont;
+    position: absolute;
+    right: 15px;
+}
+
+@media (max-width: 1366px) {
+    .nav-menu .drop-down .drop-down ul {
+        left: -90%;
+    }
+    .nav-menu .drop-down .drop-down:hover > ul {
+        left: -100%;
+    }
+    .nav-menu .drop-down .drop-down > a:after {
+        content: "\ea9d";
+    }
+}
+
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+}
+
+.mobile-nav-toggle i {
+    color: #000;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    z-index: 9999;
+    overflow-y: auto;
+    background: #fff;
+    transition: ease-in-out 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.mobile-nav * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-nav a {
+    display: block;
+    position: relative;
+    font-family: "Merriweather", serif !important;
+    color: #000;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+}
+
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.mobile-nav .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont;
+    padding-left: 10px;
+    position: absolute;
+    right: 15px;
+}
+
+.mobile-nav .active.drop-down > a:after {
+    content: "\eaa1";
+}
+
+.mobile-nav .drop-down > a {
+    padding-right: 35px;
+}
+
+.mobile-nav .drop-down ul {
+    display: none;
+    overflow: hidden;
+}
+
+.mobile-nav .drop-down li {
+    padding-left: 20px;
+}
+
+.mobile-nav-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(28, 47, 65, 0.6);
+    overflow: hidden;
+    display: none;
+    transition: ease-in-out 0.2s;
+}
+
+.mobile-nav-active {
+    overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    z-index: 997;
+    transition: all 0.2s;
+    padding: 15px 0;
+}
+
+#header.header-scrolled {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    background: #fff;
+}
+
+#header .logo h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#header .logo h1 a, #header .logo h1 a:hover {
+    color: #222222;
+    text-decoration: none;
+}
+
+#header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 74px;
+}
+@media (max-width: 768px) {
+    #header {
+        background: #fff;
+    }
+    #header .logo h1 {
+        font-size: 28px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #3498db;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+    background: #57aae1;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    font-family: 'Merriweather', serif;
+    background: #fff;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    color: #222222;
+    font-size: 14px;
+}
+
+#footer .credits {
+    font-size: 13px;
+    padding-top: 5px;
+    color: #222222;
+}
+
+#footer .footer-links a {
+    color: #222222;
+    padding-left: 15px;
+}
+
+#footer .footer-links a:first-child {
+    padding-left: 0;
+}
+
+#footer .footer-links a:hover {
+    color: #3498db;
+}
+  
