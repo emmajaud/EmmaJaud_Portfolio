@@ -258,6 +258,16 @@ section {
     border-color: white;*/
   }
 
+/*--------------------------------------------------------------
+  # Final Thoughts
+--------------------------------------------------------------*/
+#whats-next p {
+    font: normal normal normal 18px/18px Poppins !important;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 0px !important;
+}
 
 
 
