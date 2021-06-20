@@ -134,6 +134,17 @@
     return false;
   });
 
+  // prototype button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.prototype-button').fadeIn('slow');
+    } else {
+      $('.prototype-button').fadeOut('slow');
+    }
+  });
+
+ 
+
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
