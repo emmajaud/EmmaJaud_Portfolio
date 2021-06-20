@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632.5" height="248.13" viewBox="0 0 632.5 248.13">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-dellgaming-midfi-usability-testing);
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #558bfa;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+        font-family: Merriweather-Regular, Merriweather;
+      }
+
+      .cls-5 {
+        fill: rgba(112,112,112,0.5);
+      }
+
+      .cls-6 {
+        font-size: 18px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-7 {
+        filter: url(#Path_311);
+      }
+    </style>
+    <filter id="Path_311" x="-9" y="-5.869" width="650" height="266" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-dellgaming-midfi-usability-testing">
+      <rect width="632.5" height="248.13"/>
+    </clipPath>
+  </defs>
+  <g id="dellgaming-midfi-usability-testing" class="cls-1">
+    <g id="Group_657" data-name="Group 657" transform="translate(-312 -21167.869)">
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, 312, 21167.87)">
+        <path id="Path_311-2" data-name="Path 311" class="cls-2" d="M10,0H622a10,10,0,0,1,10,10V238a10,10,0,0,1-10,10H10A10,10,0,0,1,0,238V10A10,10,0,0,1,10,0Z" transform="translate(0 0.13)"/>
+      </g>
+      <path id="Rectangle_1810" data-name="Rectangle 1810" class="cls-3" d="M10,0H622.5a10,10,0,0,1,10,10V64a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(312 21168)"/>
+      <text id="TASK" class="cls-4" transform="translate(320.5 21223.369)"><tspan x="0" y="0">TASK</tspan></text>
+      <path id="Line_44" data-name="Line 44" class="cls-5" d="M.5,248.131h-1V0h1Z" transform="translate(728 21167.869)"/>
+      <path id="Path_309" data-name="Path 309" class="cls-5" d="M632,.5H0v-1H632Z" transform="translate(312 21271.684)"/>
+      <path id="Line_46" data-name="Line 46" class="cls-5" d="M632,.5H0v-1H632Z" transform="translate(312 21335.684)"/>
+      <path id="Line_47" data-name="Line 47" class="cls-5" d="M632,.5H0v-1H632Z" transform="translate(312 21375.684)"/>
+      <text id="SUCCESS_RATE" data-name="SUCCESS RATE" class="cls-4" transform="translate(761.5 21223.369)"><tspan x="0" y="0">SUCCESS RATE</tspan></text>
+      <text id="Task_1:_User_creates_an_account." data-name="Task 1: User creates an account." class="cls-6" transform="translate(327 21258)"><tspan x="0" y="0">Task 1: User creates an account.</tspan></text>
+      <text id="Task_2:_User_compares_2_items_and_adds_on_to_cart." data-name="Task 2: User compares 2 items and adds on to cart." class="cls-6" transform="translate(328 21279)"><tspan x="0" y="19">Task 2: User compares 2 items and adds </tspan><tspan x="0" y="43">on to cart.</tspan></text>
+      <text id="Task_3:_User_builds_game_center." data-name="Task 3: User builds game center." class="cls-6" transform="translate(328 21361)"><tspan x="0" y="0">Task 3: User builds game center.</tspan></text>
+      <text id="Task_4:_User_checks_out_items_in_cart." data-name="Task 4: User checks out items in cart." class="cls-6" transform="translate(328 21402)"><tspan x="0" y="0">Task 4: User checks out items in cart.</tspan></text>
+      <text id="_100.00_" data-name="100.00%" class="cls-6" transform="translate(802 21258)"><tspan x="0" y="0">100.00%</tspan></text>
+      <text id="_75.00_" data-name="75.00%" class="cls-6" transform="translate(805 21402)"><tspan x="0" y="0">75.00%</tspan></text>
+      <text id="_50.00_" data-name="50.00%" class="cls-6" transform="translate(805 21362)"><tspan x="0" y="0">50.00%</tspan></text>
+      <text id="_25.00_" data-name="25.00%" class="cls-6" transform="translate(805 21322)"><tspan x="0" y="0">25.00%</tspan></text>
+    </g>
+  </g>
+</svg>
