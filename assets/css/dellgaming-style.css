@@ -51,6 +51,13 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
+@media (max-width: 768px) and (max-height: 1024px){
+    #dellgaming-hero {
+        height: 64vh;
+        margin-top: 26px;
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -166,6 +173,40 @@ section {
     opacity: 1;
 }
 
+@media (max-width: 768px) {
+    .light-section-font h1 {
+        font: normal normal bold 36px/36px Merriweather;
+    }
+    .light-section-font h2 {
+        font: normal normal bold 24px/24px Merriweather;
+    }
+    .light-section-font h3 {
+        font: normal normal normal 16px/26px Poppins;
+    }
+    .light-section-font h4 {
+        font: normal normal normal 16px/16px Poppins;
+    }
+    .light-section-font li {
+        font: normal normal normal 16px/26px Poppins;
+    }
+
+    .dark-section-font h1 {
+        font: normal normal bold 36px/36px Merriweather;
+    }
+    .dark-section-font h2 {
+        font: normal normal bold 24px/24px Merriweather;
+    }
+    .dark-section-font h3 {
+        font: normal normal normal 16px/26px Poppins;
+    }
+    .dark-section-font h4 {
+        font: normal normal normal 16px/16px Poppins;
+    }
+    .dark-section-font li {      
+        font: normal normal normal 16px/26px Poppins;
+    }
+}
+
 /*--------------------------------------------------------------
   # Intro Info
 --------------------------------------------------------------*/
@@ -213,9 +254,25 @@ section {
     background: #256dff1f 0% 0% no-repeat padding-box;
 }
 
+@media (max-width: 768px){
+    #dellgaming-info h1 {
+        font: normal normal bold 32px/32px Merriweather;
+    }   
+    #dellgaming-info h2 {
+        font: normal normal bold 18px/18px Merriweather;
+    }
+    #dellgaming-info h3 {
+        font: normal normal normal 16px/26px Poppins;
+    }
+}
+
+
 /*--------------------------------------------------------------
   # Team Info
 --------------------------------------------------------------*/
+#team-info .container {
+    padding: 0px 58px !important;
+}
 #team-info h1 {
     font: normal normal bold 28px/28px Merriweather;
     letter-spacing: 1px !important;
@@ -224,7 +281,6 @@ section {
     text-transform: uppercase;
     margin-bottom: 12px !important;
 }
-
 #team-info h2 {
     font: normal normal normal 18px/27px Poppins;
     letter-spacing: 0px;
@@ -232,9 +288,34 @@ section {
     margin-bottom: 32px;
 }
 
+#team-info li h2 {
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px){
+    #team-info .container {
+        padding: 0px 15px !important;
+    }
+    #team-info h1 {
+        font: normal normal bold 22px/22px Merriweather;
+    }
+    #team-info h2 {
+        font: normal normal normal 16px/26px Poppins;
+    }
+    #team-info li h2 {
+        font: normal normal normal 16px/26px Poppins;
+    }
+}
+
 /*--------------------------------------------------------------
   # Problem Info
 --------------------------------------------------------------*/
+#problem-info .container {
+    padding: 0px 58px !important;
+}
 #problem-info h1 {
     font: normal normal bold 32px/32px Merriweather;
     letter-spacing: 0px;
@@ -243,7 +324,6 @@ section {
     opacity: 1;
     margin-bottom: 24px !important;
 }
-
 #problem-info h2 {
     font: normal normal normal 18px/28px Poppins;
     letter-spacing: 0px;
@@ -251,13 +331,103 @@ section {
     opacity: 1;
     margin-bottom: 40px;
 }
+
 .hover_card:hover{
     transform: scale(1.05);
     transition-duration: .4s;
     cursor: pointer;
     /*box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     border-color: white;*/
-  }
+}
+@media (max-width: 768px){
+    #problem-info .container {
+        padding: 0px 15px !important;
+    }
+    #problem-info h1 {
+        font: normal normal bold 28px/28px Merriweather;
+    }
+    #problem-info h2 {
+        font: normal normal normal 16px/26px Poppins;
+    }
+}
+
+/*--------------------------------------------------------------
+  # UXR Section
+--------------------------------------------------------------*/
+#uxr-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #uxr-section .container {
+        padding: 0px 15px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+  # Definition & Ideation Section
+--------------------------------------------------------------*/
+#def-ideation-info .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #def-ideation-info .container {
+        padding: 0px 15px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+  # IA Section
+--------------------------------------------------------------*/
+#IA-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #IA-section .container {
+        padding: 0px 15px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+  # Lofi Wireframes Section
+--------------------------------------------------------------*/
+#lofi-wireframes-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #lofi-wireframes-section .container {
+        padding: 0px 15px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+  # Prototyping Section
+--------------------------------------------------------------*/
+#prototyping-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #prototyping-section .container {
+        padding: 0px 15px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+  # Coding Section
+--------------------------------------------------------------*/
+#coding-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #coding-section .container {
+        padding: 0px 15px !important;
+    }
+}
 
 /*--------------------------------------------------------------
   # Final Thoughts
@@ -268,6 +438,31 @@ section {
     color: #FFFFFF;
     opacity: 1;
     margin-bottom: 0px !important;
+}
+#final-thoughts-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #final-thoughts-section .container {
+        padding: 0px 15px !important;
+    }
+    #final-thoughts-section ul {
+        margin-bottom: 0px;
+    }
+}
+
+/*--------------------------------------------------------------
+  # Look DellGaming Section
+--------------------------------------------------------------*/
+#look-dellgaming-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 768px){
+    #look-dellgaming-section .container {
+        padding: 0px 15px !important;
+    }
 }
 
 
@@ -563,6 +758,7 @@ section {
     left: 15px;
     bottom: 15px;
     z-index: 99999;
+    box-shadow: 0px 3px 6px #0000001F;
 }
 
 .prototype-button p {
@@ -573,7 +769,7 @@ section {
     /*width: 40px;*/
     height: 40px;
     border-radius: 4px;
-    background: #3498db;
+    background: #558BF9;
     color: #fff;
     transition: all 0.4s;
     margin: 0px;
@@ -595,6 +791,7 @@ section {
     right: 15px;
     bottom: 15px;
     z-index: 99999;
+    box-shadow: 0px 3px 6px #0000001F;
 }
 
 .back-to-top i {
@@ -605,7 +802,7 @@ section {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background: #3498db;
+    background: #558BF9;
     color: #fff;
     transition: all 0.4s;
 }
