@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-image {
-    background-image: url("../portfolio_imgs/dellgaming-imgs/svg/dellgaming-hero-tall.svg");
+    background-image: url("../portfolio_imgs/illumine-imgs/hero-section/Illumine-hero-img@2x.jpg");
     height: 100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -210,7 +210,7 @@ section {
 /*--------------------------------------------------------------
   # Intro Info
 --------------------------------------------------------------*/
-#dellgaming-info h1 {
+#illumine-info h1 {
     font: normal normal bold 38px/38px Merriweather;
     letter-spacing: 0px;
     color: #000000;
@@ -219,7 +219,7 @@ section {
     margin-bottom: 24px;
 }
 
-#dellgaming-info h2 {
+#illumine-info h2 {
     font: normal normal bold 20px/20px Merriweather;
     letter-spacing: 0px;
     color: #000000;
@@ -227,14 +227,14 @@ section {
     margin-bottom: 16px;
 }
 
-#dellgaming-info h3 {
+#illumine-info h3 {
     font: normal normal normal 18px/28px Poppins;
     letter-spacing: 0px;
     color: #000000;
     margin-bottom: 32px;
 }
 
-#dellgaming-info h4 {
+#illumine-info h4 {
     font: normal normal normal 16px/25px Poppins;
     letter-spacing: 0px;
     color: #000000;
@@ -251,14 +251,21 @@ section {
     /*box-shadow: 0px 3px 6px #00000029;*/
     color: #000;
     font-size: 12px;
-    background: #256dff1f 0% 0% no-repeat padding-box;
+    background: #0f64891f 0% 0% no-repeat padding-box;
 }
-
-@media (max-width: 1200px){
+@media (min-width: 1200px){
     #intro-img {
+        padding: 0px !important;
+    }
+    #illumine-info {
         padding-left: 0px;
     }
-    #dellgaming-info {
+}
+@media (max-width: 1200px){
+    #intro-img {
+        padding: 0px !important;
+    }
+    #illumine-info {
         padding-right: 0px;
     }
 }
@@ -266,18 +273,18 @@ section {
     #intro-img {
         padding-left: 15px;
     }
-    #dellgaming-info {
+    #illumine-info {
         padding-right: 15px;
     }
 }
 @media (max-width: 768px){
-    #dellgaming-info h1 {
+    #illumine-info h1 {
         font: normal normal bold 32px/32px Merriweather;
     }   
-    #dellgaming-info h2 {
+    #illumine-info h2 {
         font: normal normal bold 18px/18px Merriweather;
     }
-    #dellgaming-info h3 {
+    #illumine-info h3 {
         font: normal normal normal 16px/26px Poppins;
     }
 }
