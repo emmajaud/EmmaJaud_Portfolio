@@ -355,7 +355,25 @@ section {
     opacity: 1;
     margin-bottom: 40px;
 }
-
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.image1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #000000;
+    z-index: 1;
+  }
+  .image2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #000000;
+    z-index: 2;
+  }
 .hover_card:hover{
     transform: scale(1.05);
     transition-duration: .4s;
@@ -812,7 +830,7 @@ section {
     /*width: 40px;*/
     height: 40px;
     border-radius: 4px;
-    background: #558BF9;
+    background: #0f6489;
     color: #fff;
     transition: all 0.4s;
     margin: 0px;
@@ -821,7 +839,7 @@ section {
 }
 
 .prototype-button p:hover {
-    background: #094D93;
+    background: #062c3c;
     color: #fff;
 }
 
@@ -845,13 +863,13 @@ section {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background: #558BF9;
+    background: #0f6489;
     color: #fff;
     transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-    background: #094D93;
+    background: #062c3c;
     color: #fff;
 }
 
