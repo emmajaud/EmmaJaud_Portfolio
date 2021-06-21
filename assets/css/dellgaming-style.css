@@ -175,10 +175,10 @@ section {
 
 @media (max-width: 768px) {
     .light-section-font h1 {
-        font: normal normal bold 36px/36px Merriweather;
+        font: normal normal bold 36px/40px Merriweather;
     }
     .light-section-font h2 {
-        font: normal normal bold 24px/24px Merriweather;
+        font: normal normal bold 24px/30px Merriweather;
     }
     .light-section-font h3 {
         font: normal normal normal 16px/26px Poppins;
@@ -191,10 +191,10 @@ section {
     }
 
     .dark-section-font h1 {
-        font: normal normal bold 36px/36px Merriweather;
+        font: normal normal bold 36px/40px Merriweather;
     }
     .dark-section-font h2 {
-        font: normal normal bold 24px/24px Merriweather;
+        font: normal normal bold 24px/30px Merriweather;
     }
     .dark-section-font h3 {
         font: normal normal normal 16px/26px Poppins;
@@ -254,6 +254,22 @@ section {
     background: #256dff1f 0% 0% no-repeat padding-box;
 }
 
+@media (max-width: 1200px){
+    #intro-img {
+        padding-left: 0px;
+    }
+    #dellgaming-info {
+        padding-right: 0px;
+    }
+}
+@media (max-width: 992px){
+    #intro-img {
+        padding-left: 15px;
+    }
+    #dellgaming-info {
+        padding-right: 15px;
+    }
+}
 @media (max-width: 768px){
     #dellgaming-info h1 {
         font: normal normal bold 32px/32px Merriweather;
@@ -294,11 +310,12 @@ section {
     color: #FFFFFF;
     margin-bottom: 0px;
 }
-
-@media (max-width: 768px){
+@media (max-width: 992px){
     #team-info .container {
         padding: 0px 15px !important;
     }
+}
+@media (max-width: 768px){
     #team-info h1 {
         font: normal normal bold 22px/22px Merriweather;
     }
@@ -339,10 +356,13 @@ section {
     /*box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     border-color: white;*/
 }
-@media (max-width: 768px){
+
+@media (max-width: 992px){
     #problem-info .container {
         padding: 0px 15px !important;
     }
+}
+@media (max-width: 768px){
     #problem-info h1 {
         font: normal normal bold 28px/28px Merriweather;
     }
@@ -358,7 +378,7 @@ section {
     padding: 0px 58px !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #uxr-section .container {
         padding: 0px 15px !important;
     }
@@ -371,7 +391,7 @@ section {
     padding: 0px 58px !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #def-ideation-info .container {
         padding: 0px 15px !important;
     }
@@ -384,7 +404,7 @@ section {
     padding: 0px 58px !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #IA-section .container {
         padding: 0px 15px !important;
     }
@@ -397,7 +417,7 @@ section {
     padding: 0px 58px !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #lofi-wireframes-section .container {
         padding: 0px 15px !important;
     }
@@ -410,7 +430,7 @@ section {
     padding: 0px 58px !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #prototyping-section .container {
         padding: 0px 15px !important;
     }
@@ -422,10 +442,24 @@ section {
 #coding-section .container {
     padding: 0px 58px !important;
 }
+#figma-to-code-2-img {
+    width: 288px !important;
+}
+#img-row {
+    padding-right: 16px;
+}
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #coding-section .container {
         padding: 0px 15px !important;
+    }
+}
+@media (max-width: 768px){
+    #figma-to-code-1-img {
+        width: 50% !important;
+    }
+    #figma-to-code-2-img {
+        width: 50% !important;
     }
 }
 
@@ -443,10 +477,12 @@ section {
     padding: 0px 58px !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #final-thoughts-section .container {
         padding: 0px 15px !important;
     }
+}
+@media (max-width: 768px){
     #final-thoughts-section ul {
         margin-bottom: 0px;
     }
@@ -459,7 +495,7 @@ section {
     padding: 0px 58px !important;
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     #look-dellgaming-section .container {
         padding: 0px 15px !important;
     }
