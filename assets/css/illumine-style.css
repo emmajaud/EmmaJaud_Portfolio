@@ -404,6 +404,12 @@ section {
     #problem-info h2 {
         font: normal normal normal 16px/26px Poppins;
     }
+    #p-h1 {
+        margin-top: 16px !important;
+    }
+    #p-h2 {
+        margin-bottom: 0px !important;
+    }
 }
 
 /*--------------------------------------------------------------
