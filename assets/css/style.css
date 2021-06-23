@@ -825,7 +825,7 @@ section#work {
 
 /*--------------------------------------------------------------
 # Contact Modal
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .modal-dialog {
   width: 100%;
   padding-right: 15px;
@@ -943,4 +943,4 @@ button.bg-primary:focus {
   font-size: 20px;
   color: #fff; }
 .info-wrap .dbox .text {
-  width: calc(100% - 50px); }
+  width: calc(100% - 50px); }*/

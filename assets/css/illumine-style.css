@@ -407,7 +407,20 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # UXR Section
+  # Background Research Section
+--------------------------------------------------------------*/
+#br-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 992px){
+    #br-section .container {
+        padding: 0px 15px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+  # User Research Section
 --------------------------------------------------------------*/
 #uxr-section .container {
     padding: 0px 58px !important;
@@ -422,121 +435,15 @@ section {
 /*--------------------------------------------------------------
   # Definition & Ideation Section
 --------------------------------------------------------------*/
-#def-ideation-info .container {
+#def-ideation-section .container {
     padding: 0px 58px !important;
 }
 
 @media (max-width: 992px){
-    #def-ideation-info .container {
+    #def-ideation-section .container {
         padding: 0px 15px !important;
     }
 }
-
-/*--------------------------------------------------------------
-  # IA Section
---------------------------------------------------------------*/
-#IA-section .container {
-    padding: 0px 58px !important;
-}
-
-@media (max-width: 992px){
-    #IA-section .container {
-        padding: 0px 15px !important;
-    }
-}
-
-/*--------------------------------------------------------------
-  # Lofi Wireframes Section
---------------------------------------------------------------*/
-#lofi-wireframes-section .container {
-    padding: 0px 58px !important;
-}
-
-@media (max-width: 992px){
-    #lofi-wireframes-section .container {
-        padding: 0px 15px !important;
-    }
-}
-
-/*--------------------------------------------------------------
-  # Prototyping Section
---------------------------------------------------------------*/
-#prototyping-section .container {
-    padding: 0px 58px !important;
-}
-
-@media (max-width: 992px){
-    #prototyping-section .container {
-        padding: 0px 15px !important;
-    }
-}
-
-/*--------------------------------------------------------------
-  # Coding Section
---------------------------------------------------------------*/
-#coding-section .container {
-    padding: 0px 58px !important;
-}
-#figma-to-code-2-img {
-    width: 288px !important;
-}
-#img-row {
-    padding-right: 16px;
-}
-
-@media (max-width: 992px){
-    #coding-section .container {
-        padding: 0px 15px !important;
-    }
-}
-@media (max-width: 768px){
-    #figma-to-code-1-img {
-        width: 50% !important;
-    }
-    #figma-to-code-2-img {
-        width: 50% !important;
-    }
-}
-
-/*--------------------------------------------------------------
-  # Final Thoughts
---------------------------------------------------------------*/
-#whats-next p {
-    font: normal normal normal 18px/18px Poppins !important;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    margin-bottom: 0px !important;
-}
-#final-thoughts-section .container {
-    padding: 0px 58px !important;
-}
-
-@media (max-width: 992px){
-    #final-thoughts-section .container {
-        padding: 0px 15px !important;
-    }
-}
-@media (max-width: 768px){
-    #final-thoughts-section ul {
-        margin-bottom: 0px;
-    }
-}
-
-/*--------------------------------------------------------------
-  # Look DellGaming Section
---------------------------------------------------------------*/
-#look-dellgaming-section .container {
-    padding: 0px 58px !important;
-}
-
-@media (max-width: 992px){
-    #look-dellgaming-section .container {
-        padding: 0px 15px !important;
-    }
-}
-
-
 
 
 /*--------------------------------------------------------------
