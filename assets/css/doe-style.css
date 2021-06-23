@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-image {
-    background-image: url("../portfolio_imgs/doe-imgs/DoE-hero-img-2.svg");
+    background-image: url("../portfolio_imgs/doe-imgs/hero-section/DoE-hero-img-2.svg");
     height: 100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -204,6 +204,16 @@ section {
     }
     .dark-section-font li {      
         font: normal normal normal 16px/26px Poppins;
+    }
+}
+
+@media (max-width: 576px) {
+    .light-section-font h1 {
+        font: normal normal bold 32px/36px Merriweather;
+    }
+
+    .dark-section-font h1 {
+        font: normal normal bold 32px/36px Merriweather;
     }
 }
 

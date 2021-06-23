@@ -173,6 +173,7 @@ section {
     opacity: 1;
 }
 
+
 @media (max-width: 768px) {
     .light-section-font h1 {
         font: normal normal bold 36px/40px Merriweather;
@@ -204,6 +205,16 @@ section {
     }
     .dark-section-font li {      
         font: normal normal normal 16px/26px Poppins;
+    }
+}
+
+@media (max-width: 576px) {
+    .light-section-font h1 {
+        font: normal normal bold 32px/36px Merriweather;
+    }
+
+    .dark-section-font h1 {
+        font: normal normal bold 32px/36px Merriweather;
     }
 }
 

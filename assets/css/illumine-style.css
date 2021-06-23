@@ -207,6 +207,16 @@ section {
     }
 }
 
+@media (max-width: 576px) {
+    .light-section-font h1 {
+        font: normal normal bold 32px/36px Merriweather;
+    }
+
+    .dark-section-font h1 {
+        font: normal normal bold 32px/36px Merriweather;
+    }
+}
+
 /*--------------------------------------------------------------
   # Intro Info
 --------------------------------------------------------------*/
