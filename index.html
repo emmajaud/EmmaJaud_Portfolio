@@ -29,6 +29,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/scroll-animation.css" rel="stylesheet">
   
 
 </head>
@@ -88,7 +89,7 @@
     </div>-->
 
     <div class="container">
-      <div class="row">
+      <div class="row h-100 w-100">
         <div data-aos="fade-right" data-aos-delay="200" id="me-info" class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>Emma Jaud</h1>
           <h2>Product Designer</h2>
@@ -104,8 +105,13 @@
         <div class="col-lg-6 order-1 order-lg-2 hero-img" style="text-align: center;" data-aos="fade-left" data-aos-delay="200">
           <img src="assets/portfolio_imgs/home-imgs/Me_Artwork.png" class="img-fluid animated" alt="">
         </div>
+        <div class="col-12 order-3 mouse-position mr-auto" style="text-align: center;">
+          <div class="mouse" style="margin:auto"></div>
+          <!--<p class="mouse-scroll">Scroll</p>-->
+        </div>
       </div>
     </div>
+    
 
   </section><!-- End Hero -->
 
@@ -113,30 +119,9 @@
   <main id="main">
 
     <section id="work" style="padding: 0;">
-      <!-- ======= MOBILE =======  
-      <div class="selected-work d-block d-lg-none">
-        <div class="row">
-          <div class="col">
-            <a href="">Work</a>
-          </div>
-          <div class="col">
-            <a href=""></a>
-          </div>
-        </div>
-      </div>-->
-      <!--<div class="selected-work container">
-        <div class="row">
-          <div class="col">
-            <a href="">Work</a>
-          </div>
-          <div class="col">
-            <a href=""></a>
-          </div>
-        </div>
-      </div>-->
     
       <!-- ======= DELLGAMING CASE STUDY CARD ======= -->
-      <div id="dellgaming" class="container" style="padding: 0 0 88px 0;" data-aos="fade-up">
+      <div id="dellgaming" class="container" style="padding: 0 0 88px 0;" data-aos="fade-in">
 
         <!-- MOBILE DELLGAMING CARD -->
         <div id="cardcolor1" class="p-card-container d-block d-lg-none h-100 " style="max-height: none;">
@@ -187,7 +172,7 @@
       <!-- END OF DELLGAMING CARD-->
 
       <!-- ======= ILLUMINE CASE STUDY CARD ======= -->
-      <div id="illumine" class="container" style="padding: 0 0 88px 0;" data-aos="fade-up">
+      <div id="illumine" class="container" style="padding: 0 0 88px 0;" data-aos="fade-in">
 
         <!-- MOBILE ILLUMINE CARD -->
         <div id="cardcolor2" class="p-card-container d-block d-lg-none h-100 " style="margin-top: 0px; max-height: none;">
@@ -227,14 +212,12 @@
               <a href="illumine.html"><img class="card-img hover_card" src="assets/portfolio_imgs/home-imgs/illuminé_card_img.svg" alt=""></a>
             </div> 
           </div>
-        </div>
-        
-        
+        </div> 
       </div>     
       <!-- END OF ILLUMINE CARD-->
 
       <!-- ======= DOE CASE STUDY CARD ======= -->
-      <div id="doe" class="container" style="padding: 0 0 88px 0;" data-aos="fade-up">
+      <div id="doe" class="container" style="padding: 0 0 88px 0;" data-aos="fade-in">
 
         <!-- MOBILE DOE CARD -->
         <div id="cardcolor3" class="p-card-container d-block d-lg-none h-100 " style="margin-top: 0px; max-height: none;">
@@ -275,17 +258,11 @@
             </div> 
           </div>
         </div>
-        
-        
       </div> 
       <!-- END OF DOE CARD-->
 
   </section>
 
-
-  
-
-    
 
   </main><!-- End #main -->
 
