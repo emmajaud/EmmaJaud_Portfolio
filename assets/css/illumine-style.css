@@ -445,6 +445,18 @@ section {
     }
 }
 
+/*--------------------------------------------------------------
+  # Wireframing & Prototyping Section
+--------------------------------------------------------------*/
+#wireframing-section .container {
+    padding: 0px 58px !important;
+}
+
+@media (max-width: 992px){
+    #wireframing-section .container {
+        padding: 0px 15px !important;
+    }
+}
 
 /*--------------------------------------------------------------
   # Navigation Menu
