@@ -336,6 +336,11 @@ section {
         font: normal normal normal 16px/26px Poppins;
     }
 }
+@media (max-width: 576px){
+    #team-img {
+        margin-top: 16px !important;
+    }
+}
 
 /*--------------------------------------------------------------
   # Problem Info
@@ -373,6 +378,12 @@ section {
     #problem-info .container {
         padding: 0px 15px !important;
     }
+    #p-h1 {
+        margin-top: 16px !important;
+    }
+    #p-h2 {
+        margin-bottom: 0px !important;
+    }
 }
 @media (max-width: 768px){
     #problem-info h1 {
@@ -381,12 +392,16 @@ section {
     #problem-info h2 {
         font: normal normal normal 16px/26px Poppins;
     }
-    #p-h1 {
-        margin-top: 16px !important;
+    
+    #doe-mobile-proto {
+        max-height: 278.58px;
     }
-    #p-h2 {
-        margin-bottom: 0px !important;
+}
+@media (max-width: 444px){
+    #doe-mobile-proto {
+        max-height: 224px;
     }
+    
 }
 
 /*--------------------------------------------------------------
