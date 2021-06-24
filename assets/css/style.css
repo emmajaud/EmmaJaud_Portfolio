@@ -250,6 +250,9 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   text-align: right;
 }
+button.mobile-nav-toggle.d-lg-none {
+  padding: 1px 0px !important;
+}
 
 .mobile-nav-toggle i {
   color: #000;
