@@ -135,13 +135,31 @@
   });
 
   // prototype button
+  
   $(window).scroll(function() {
+    //var a = $(this).scrollTop()
+    //var b = ($(window).scrollTop() + $(window).height() == $(document).height())
+    //var c = ($(document).height())
+    //var d = ($(window).scrollTop() + $(window).height())
+    //console.log("A:", a)
+    //console.log("B:", b)
+    //console.log("C:", c)
+    //console.log("D:", d)
     if ($(this).scrollTop() > 100) {
       $('.prototype-button').fadeIn('slow');
-    } else {
+    } 
+    else {
       $('.prototype-button').fadeOut('slow');
     }
+    
+    if ($(window).width() <= 744){
+      if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+        $('.prototype-button').fadeOut('slow');
+        console.log("this is working")
+      }
+    }
   });
+  
 
  
 
