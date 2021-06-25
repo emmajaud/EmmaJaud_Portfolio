@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-image {
-    background-image: url("../portfolio_imgs/illumine-imgs/hero-section/Illumine-hero-img@2x.jpg");
+    background-image: url("../portfolio_imgs/illumine-imgs/hero-section/Illumine-hero-img.png");
     height: 100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
