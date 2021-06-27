@@ -328,6 +328,12 @@ section {
         padding: 0px 15px !important;
     }
 }
+
+@media (min-width: 767px) and (max-width: 786px){
+    #team-description {
+        padding-right: 0px;
+    }
+}
 @media (max-width: 768px){
     #team-info h1 {
         font: normal normal bold 22px/22px Merriweather;
@@ -338,6 +344,7 @@ section {
     #team-info li h2 {
         font: normal normal normal 16px/26px Poppins;
     }
+    
 }
 @media (max-width: 576px){
     #team-img {
