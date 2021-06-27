@@ -178,7 +178,7 @@ section {
 
 @media (max-width: 768px) {
     .light-section-font h1 {
-        font: normal normal bold 36px/40px Merriweather;
+        font: normal normal bold 34px/38px Merriweather;
     }
     .light-section-font h2 {
         font: normal normal bold 24px/30px Merriweather;
@@ -194,7 +194,7 @@ section {
     }
 
     .dark-section-font h1 {
-        font: normal normal bold 36px/40px Merriweather;
+        font: normal normal bold 34px/38px Merriweather;
     }
     .dark-section-font h2 {
         font: normal normal bold 24px/30px Merriweather;
