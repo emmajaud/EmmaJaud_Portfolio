@@ -376,7 +376,12 @@ section {
     /*box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     border-color: white;*/
 }
-
+#doe-mobile-proto {
+    max-height: 383.36px;
+}
+#doe-desktop-proto {
+    max-height: 386.28px;
+}
 @media (max-width: 992px){
     #problem-info .container {
         padding: 0px 15px !important;
@@ -396,9 +401,13 @@ section {
         font: normal normal normal 16px/26px Poppins;
     }
     
+    
+}
+@media (max-width: 767px){
     #doe-mobile-proto {
         max-height: 278.58px;
     }
+    
 }
 @media (max-width: 444px){
     #doe-mobile-proto {
